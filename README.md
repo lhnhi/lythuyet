@@ -1,6 +1,6 @@
 # Ly Thuyet
 
-Python 
+## Python 
 
 LISTE (DANH SÁCH)
 
@@ -8,10 +8,12 @@ Có thể thay đổi được (mutable), sắp xếp theo thứ tự (thứ t�
 
 Phần tử trong list có thể là các kiểu dữ liệu khác nhau. Có thể dùng làm list( ) để tạo ra một list mới. 
 
+```python
 x = list((‘orange’, ‘pomme’))     #output: [‘orange’, ‘pomme’] 
 my_list = [10, 20, 30]    # Thay đổi phần tử tại chỉ mục 1
 my_list[1] = 25
 print(my_list)  # Output: [10, 25, 30]
+```
 
 Thay đổi nhiều phần tử cùng lúc 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
