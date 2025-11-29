@@ -1,5 +1,27 @@
 # Ly Thuyet
 
+## Git
+
+dua len git:
+- git status
+- git add tenfile
+- git commit -m "commit"
+- git push
+
+keo ve:
+- git fetch
+- git log --oneline
+- git pull
+
+
+
+
+
+
+
+
+
+
 ## Python 
 
 LISTE (DANH SÁCH)
@@ -114,9 +136,8 @@ for i in fruits:
     nouvelleliste.append(i.upper()) 
 print (nouvelleliste) 
 #output: ["apple", "banana", "cherry", "kiwi", "mango"]
-
-
-TUPLE ()
+ 
+TUPLE () 
 Không thể thay đổi (immutable): không thể thêm, bớt, hay xoá các phần tử, có thứ tự, cho phép các phần tử trùng lặp, kí hiệu: dấu ( ) 
 
 tuple = ( ) 			#tuple rỗng 
@@ -150,6 +171,11 @@ print(len(tuple1))  		# Output: 3
 tuple1 = (1, 2, 3)
 print(max(tuple1))  		# Output: 3
 print(min(tuple1))  		# Output: 1
+
+
+
+
+
 
 SET (ENSEMBLE)
 Thay đổi được (mutable), không có thứ tự (các biến có thể sắp xếp lung tung), KHÔNG ACCEPT phần tử trùng lặp, kí hiệu: dấu { } 
